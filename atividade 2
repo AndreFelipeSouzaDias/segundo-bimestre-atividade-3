@@ -1,0 +1,34 @@
+programa
+{
+	inclua biblioteca Matematica --> m
+	
+	funcao inicio()
+	{
+     inteiro a, b, c, delta, x1, x2
+
+   escreva("Digite o valor de a: ")
+   leia(a)
+   
+   escreva("Digite o valor de b: ")
+   leia(b)
+   
+   escreva("Digite o valor de c: ")
+   leia(c)
+   
+   escreva("Os valores fornecidos são: \n")
+   escreva("a = ", a, "\n")
+   escreva("b = ", b, "\n")
+   escreva("c = ", c, "\n")
+   
+   delta = (b * b) - (4 * a * c)
+
+   x1 = (-b + m.raiz(delta, 2)) / (2 * a)
+   x2 = (-b - m.raiz(delta, 2)) / (2 * a)
+   
+   escreva("O valor de delta (Δ) é: ", delta, "\n")
+   escreva("O valor de x1 é: ", x1, "\n")
+   escreva("O valor de x2 é: ", x2, "\n")
+
+   
+	}
+}
