@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1, n2
+
+		escreva("fale um numero pae: ")
+		leia(n1)
+		escreva("fale um outro numero pae: ")
+		leia(n2)
+
+		se(n1 > n2){
+			escreva("o numero ", n1, " pae, é maior que o ", n2)
+		}
+		senao{
+			escreva("o numero ", n2, " pae, é maior que o ", n1)
+		}
+	}
+}
