@@ -1,0 +1,36 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+    inteiro n1, n2, n3, n4, maior
+    
+    escreva("fale um número ae pae: ")
+    leia(n1)
+    
+    escreva("fale mais um número pae: ")
+    leia(n2)
+    
+    escreva("fala um outro número pae: ")
+    leia(n3)
+    
+    escreva("fala um ultimo número pae: ")
+    leia(n4)
+   
+    maior = n1
+
+    se (n2 > maior)
+        maior = n2
+
+    se (n3 > maior)
+        maior = n3
+
+    se (n4 > maior)
+        maior = n4
+   
+    escreva("O maior número pae é: ", maior)
+
+
+	}
+}
