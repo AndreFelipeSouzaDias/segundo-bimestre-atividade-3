@@ -1,0 +1,47 @@
+programa
+{
+	
+	funcao inicio()
+	{
+     real a, b, c
+     
+   escreva("Digite o primeiro lado: ")
+   leia(a)
+   escreva("Digite o segundo lado: ")
+   leia(b)
+   escreva("Digite o terceiro lado: ")
+   leia(c)
+
+   se (a < b + c) {
+      se (b < a + c) {
+         se (c < a + b) {
+           
+            se (a == b) {
+               se (b == c) {
+                  escreva("Triângulo Equilátero")
+               } senao {
+                  escreva("Triângulo Isósceles")
+               }
+            } senao {
+               se (a == c) {
+                  escreva("Triângulo Isósceles")
+               } senao {
+                  se (b == c) {
+                     escreva("Triângulo Isósceles")
+                  } senao {
+                     escreva("Triângulo Escaleno")
+                  }
+               }
+            }
+         } senao {
+            escreva("Não compõem um triângulo")
+         }
+      } senao {
+         escreva("Não compõem um triângulo")
+      }
+   } senao {
+      escreva("Não compõem um triângulo")
+   }
+
+	}
+}
