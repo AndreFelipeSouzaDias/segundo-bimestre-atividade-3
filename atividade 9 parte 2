@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+ {
+   inteiro ano
+
+   escreva("Digite um ano (positivo): ")
+   leia(ano)
+
+   se (ano <= 0) {
+      escreva("Ano inválido. Considerando ano atual: 2025")
+      ano = 2025
+   }
+
+   se (ano % 4 == 0) {
+      se (ano % 100 == 0) {
+         se (ano % 400 == 0) {
+            escreva("Ano bissexto")
+         } senao {
+            escreva("Ano não é bissexto")
+         }
+      } senao {
+         escreva("Ano bissexto")
+      }
+   } senao {
+      escreva("Ano não é bissexto")
+   }
+ }
+}
